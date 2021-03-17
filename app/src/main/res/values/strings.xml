@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Labs2021</string>
+    <string name="TextView">Enter your email address:</string>
+    <string name="Email">Type email here</string>
+    <string name="Password">Type your password:</string>
+    <string name="EnterPassword"></string>
+    <string name="LoginButton">LOGIN</string>
+    <string name="Profile">Your profile</string>
+    <string name="Name">Your name:</string>
+    <string name="enterName">Enter your name</string>
+    <string name="yEmail">Your email:</string>
+    <string name="enterEmail">Enter your email</string>
+    <string name="yourpic">Your picture:</string>
+    <string name="info">Click the button above to take a picture</string>
+    <string name="Chat">Go To Chat</string>
+    <string name="weather">Weather</string>
+
+
 </resources>

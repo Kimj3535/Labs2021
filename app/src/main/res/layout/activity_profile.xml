@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/yourProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Profile"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/yourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        android:layout_below="@+id/yourProfile"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnterName"
+        android:hint="@string/Name"
+        android:text="@string/enterName"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/yourName"/>
+    <TextView
+        android:id="@+id/yEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yEmail"
+        android:layout_below="@+id/EnterName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eEmail"
+        android:hint="@string/Name"
+        android:text="@string/enterEmail"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/yEmail"/>
+
+    <TextView
+        android:id="@+id/yourPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yourpic"
+        android:layout_below="@+id/eEmail"
+        />
+    <ImageButton
+        android:id="@+id/imButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yourPic"
+        android:src="@android:drawable/picture_frame"/>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:layout_below="@+id/imButton"
+        />
+    <Button
+        android:id="@+id/chatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:text="@string/Chat"
+        />
+    <Button
+        android:id="@+id/buttonWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chatButton"
+        android:text="@string/weather" />
+
+
+
+
+
+
+</RelativeLayout>
