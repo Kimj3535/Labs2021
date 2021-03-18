@@ -115,4 +115,4 @@ public class ProfileActivity extends AppCompatActivity {
         Log.e(ACTIVITY_NAME, " in function: " + "onResume");
     }
 }
-    
+
